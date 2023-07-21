@@ -7,6 +7,7 @@ public class FloatingDataTypes {
         double taxRate = 20.5;
         System.out.println("taxRate = " + taxRate);
 
+        // the default data type for any floating number is "double"
         // float interestRate = 1.3; // 1.3 is double as default. and double size bigger than float,
         // can not directly assign double(64bit) to float(32 bit) !!
 
