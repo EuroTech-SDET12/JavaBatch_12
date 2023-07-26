@@ -14,8 +14,8 @@ public class Casting_1 {
 
         //byte ---> 1 byte ---> 8 bit
         byte byte1 = -128; //256
-        //    - - - - - - - -
-        //    7 6 5 4 3 2 1 0  2 power
+        //     -  -  -  -  - - - -
+        //     7  6  5  4  3 2 1 0  2 power
         //    128 64 32 16 8 4 2 1
 
         System.out.println("Byte.MAX_VALUE = " + Byte.MAX_VALUE);// 1 byte
