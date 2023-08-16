@@ -9,18 +9,41 @@ public class ScoreTask {
         if (score>= 8) { // FATHER
             balance += 50;
         }
+       else { // if father not giving a money, then uncle should be able to give!!
+            if(score>6){ // UNCLE
+                balance+=20;
+
+            } else{
+                balance-=10;
+            }
+        }
+
+
+
+
+        System.out.println("balance = " + balance);
+
+
+         balance = 120;
+         score = 6;
+
+        if (score >= 8) { // FATHER
+            balance += 50;
+        }
 //       else { // if father not giving a money, then uncle should be able to give!!
 //
 //        }
 
-        if(score>6){ // UNCLE
-            balance+=20;
+        if (score == 7) { // UNCLE
+            balance += 20;
 
-        } else{
-            balance-=10;
+        }
+        if (score <= 6) {
+            balance -= 10;
         }
 
 
         System.out.println("balance = " + balance);
     }
 }
+
