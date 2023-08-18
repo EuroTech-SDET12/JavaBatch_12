@@ -40,5 +40,31 @@ public class Switch_3 {
         System.out.println("isWeekday = " + isWeekday);
 
 
+        number = 12;
+        switch (number) {
+            default:
+                System.out.println(number + " is greater then 10 so we couldnt check it.");
+                break;
+            case 10:
+            case 8:
+            case 4:
+            case 2:
+                System.out.println(number + " is an even  number.");
+                break;
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 9:
+                System.out.println(number + " is an odd number.");
+        }
+        if (number == 2 || number == 4 || number == 6 || number == 8 || number == 10) {
+            System.out.println(number + " is an even  number.");
+        } else if (number == 1 || number == 3 || number == 5 || number == 7 || number == 9) {
+            System.out.println(number + " is an odd number.");
+        } else {
+            System.out.println(number + " is greater then 10 so we couldnt check it.");
+        }
+
     }
 }

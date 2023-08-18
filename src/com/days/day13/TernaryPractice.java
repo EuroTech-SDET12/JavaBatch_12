@@ -4,7 +4,7 @@ public class TernaryPractice {
 
     public static void main(String[] args) {
 
-       //  write a code to print given number is multiply of 7 or not!
+        //  write a code to print given number is multiply of 7 or not!
 
         int number = 117;
 
@@ -12,10 +12,10 @@ public class TernaryPractice {
         String result;
 
 
-        if (number % 7 == 0){
-            result = "The number " + number+ " is multiply of 7";
+        if (number % 7 == 0) {
+            result = "The number " + number + " is multiply of 7";
         } else {
-            result = "The number " + number+ " is NOT multiply of 7";
+            result = "The number " + number + " is NOT multiply of 7";
         }
 
         System.out.println("result = " + result);
@@ -25,9 +25,13 @@ public class TernaryPractice {
         // (condition) ? exp1  : exp2
 
 
-      result=  (number % 7 == 0) ? ("The number " + number+ " is multiply of 7") : ("The number " + number+ " is NOT multiply of 7");
+        result = (number % 7 == 0) ? ("The number " + number + " is multiply of 7") : ("The number " + number + " is NOT multiply of 7");
         System.out.println("result = " + result);
 
+
+//        (condition) ? true :false
+        // String =  condition            String : String
+        // int    = condition             int    :  int
 
 
     }
