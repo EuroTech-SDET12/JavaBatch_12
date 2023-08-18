@@ -24,6 +24,12 @@ public class TernaryPractice {
 
         // (condition) ? exp1  : exp2
 
+
+      result=  (number % 7 == 0) ? ("The number " + number+ " is multiply of 7") : ("The number " + number+ " is NOT multiply of 7");
+        System.out.println("result = " + result);
+
+
+
     }
 
 }
