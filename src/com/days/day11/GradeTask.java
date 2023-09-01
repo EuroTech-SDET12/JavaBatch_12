@@ -28,5 +28,8 @@ public class GradeTask {
 
         int number = 37;
         boolean even =  number % 2 == 0 ;
+
+
+        System.out.println((0.2 + 1.2 + 2.2 + 3.2) );
     }
 }
