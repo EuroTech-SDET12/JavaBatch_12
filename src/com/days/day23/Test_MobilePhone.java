@@ -6,7 +6,7 @@ public class Test_MobilePhone {
 
 
         MobilePhone iphone = new MobilePhone();
-        MobilePhone.phoneCount++;
+        MobilePhone.phoneCount++; //iphone.phoneCount++;
 //        MobilePhone.ramSize++; ramSize is instance field,
 //        belongs to object, so call with object!!!!!!!!!!
         iphone.model = "11proMax";
