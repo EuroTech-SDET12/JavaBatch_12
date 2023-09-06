@@ -12,7 +12,7 @@ public class HasNextPractice {
         System.out.println("Please enter id number:");
 
         //System.out.println("scanner.hasNextInt() = " + scanner.hasNextInt());
-
+//
 //        if (scanner.hasNextInt()){
 //            int number = scanner.nextInt();
 //            System.out.println("number = " + number);
