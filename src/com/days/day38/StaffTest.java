@@ -7,11 +7,13 @@ public class StaffTest {
         Staff s2 = new Staff("Julie","DevOps",80000,1002);
         Staff s3 = new Staff("Jane","SquadLead",50000,1003);
         Staff s4;
+        Staff s5 = s3;
         System.out.println("s3.name = " + s3.name);
 
         printStaffSummary(s1);
         printStaffSummary(s2);
         printStaffSummary(s3);
+        printStaffSummary(s5);
 //        printStaffSummary(s4);
 //        System.out.println("s4.name = " + s4.name);
 
