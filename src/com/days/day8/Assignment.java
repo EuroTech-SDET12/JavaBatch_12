@@ -1,9 +1,12 @@
 package com.days.day8;
 
 public class Assignment {
+
+    public int test;
+
     public static void main(String[] args) {
         //=
-        int var;
+         int var;
         var = 10;
         //without initialisation we cant use a variable
         //+=

@@ -1,0 +1,22 @@
+package com.days.day47.DefaultTest;
+
+import com.days.day47.DefaultSamePackTest;
+import com.days.day47.DefaultSample;
+
+public class DefaultSampleTest extends DefaultSample {
+    public static void main(String[] args) {
+        // Create an object
+        DefaultSample obj1 = new DefaultSample();
+       // System.out.println("obj1.defaultNum = " + obj1.defaultNum);
+        System.out.println("obj1.publicNum = " + obj1.publicNum);
+        obj1.publicMethod();
+       // obj1.defaultMethod();
+
+        // via inheritance
+        DefaultSamePackTest obj2 = new DefaultSamePackTest();
+        System.out.println("obj2.publicNum = " + obj2.publicNum);
+        //System.out.println("obj2.defaultNum = " + obj2.defaultNum);
+        //obj2.defaultMethod();
+        obj2.publicMethod();
+    }
+}
