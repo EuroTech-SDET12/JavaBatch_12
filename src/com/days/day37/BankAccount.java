@@ -10,7 +10,7 @@ public class BankAccount {
     double balance;
     boolean isAccountActive; //= false
 
-   static int totalAccountCount;
+   public static int totalAccountCount;
 
 
     // Cons

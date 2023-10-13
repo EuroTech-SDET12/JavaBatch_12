@@ -31,6 +31,8 @@ public class FinalArrayList {
         System.out.println("list3 = " + list3);
         list3.remove(0);
         System.out.println("list3 = " + list3);
+
+//        list3 = new ArrayList<>();
 //        list3 = list2; NO NO NO !!
 
     }
