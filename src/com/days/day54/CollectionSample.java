@@ -13,6 +13,8 @@ public class CollectionSample {
 
     public static void main(String[] args) {
 
+
+
         ArrayList<Integer> number1 = new ArrayList<>();
         System.out.println("\n// add() \\\\\\\\\\\\\\\\\\\\\\");
         number1.add(12);

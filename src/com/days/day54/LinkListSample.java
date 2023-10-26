@@ -2,7 +2,7 @@ package com.days.day54;
 
 import java.util.LinkedList;
 
-public class linkListSample {
+public class LinkListSample {
 
     public static void main(String[] args) {
         LinkedList<String> list1 = new LinkedList<>();
@@ -15,6 +15,9 @@ public class linkListSample {
         System.out.println("list1 = " + list1);
         list1.addFirst("VIP");
 
+        System.out.println("list1 = " + list1);
+
+        System.out.println("list1.poll() = " + list1.poll());
         System.out.println("list1 = " + list1);
 
     }
