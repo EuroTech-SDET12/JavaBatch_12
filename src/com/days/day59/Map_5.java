@@ -36,6 +36,5 @@ public class Map_5 {
         dataOfCountry.put("Cities", citiesOfCountry);
         Map<String, ArrayList<String>> clubsOfCountry=new TreeMap<>();
         dataOfCountry.put("FootballClubs", clubsOfCountry);
-
     }
 }
