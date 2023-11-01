@@ -6,6 +6,7 @@ public class TestParent {
         Parent object1= new Parent(123);
 
         Parent object2= new Parent(555);
+        System.out.println("Vehicle.familyBus = " + Vehicle.familyBus);
 
     }
 }
